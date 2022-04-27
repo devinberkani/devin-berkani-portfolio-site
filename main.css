@@ -444,6 +444,42 @@ main {
   margin-bottom: 2em;
 }
 
+/* projects */
+
+.projects-title {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid var(--grey-300);
+  border-radius: var(--borderRadius);
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.card p {
+  text-align: center;
+  margin: 1em;
+}
+
+/* skills */
+
+.skills-title {
+  text-align: center;
+}
+
+.skills-icons {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+}
+
+/* contact */
+
+.contact {
+  text-align: center;
+}
+
 @media screen and (min-width: 800px) {
   main {
     grid-template-columns: 1fr 1fr;
@@ -468,15 +504,44 @@ main {
     margin-right: 3em;
   }
 
+  /* projects */
+
   .projects {
     grid-area: projects;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      'title'
+      'project';
   }
+
+  .projects-title {
+    grid-area: title;
+    margin: 0 auto;
+  }
+
+  .project-cards {
+    margin-top: 1em;
+    grid-area: project;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5em;
+  }
+
+  /* skills */
 
   .skills {
     grid-area: skills;
   }
 
+  /* contact */
+
   .contact {
     grid-area: contact;
+  }
+
+  .contact-info {
+    padding-top: 3em;
   }
 }
