@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devin Berkani | Web Developer</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css" />
     <!-- font-awesome -->
@@ -31,55 +33,74 @@
         </div>
         <!-- links -->
         <ul class="links">
-          <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">projects</a></li>
-          <li><a href="#">contact</a></li>
-        </ul>
-        <!-- social media -->
-        <ul class="social-icons">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#contact">contact</a></li>
+          <!-- mobile social media -->
+          <span class="mobile-social-icons">
           <li>
-            <a href="https://www.twitter.com">
-              <i class="fab fa-facebook"></i>
+            <a href="https://github.com/devinberkani">
+              <i class="fa-brands fa-github-square"></i>
             </a>
           </li>
 
           <li>
-            <a href="https://www.twitter.com">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.twitter.com">
+            <a href="https://www.linkedin.com/in/devin-berkani-789556104/">
               <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/devinberkani">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          </span>
+        </ul>
+        <!-- desktop social media -->
+        <ul class="desktop-social-icons">
+          <li>
+            <a href="https://github.com/devinberkani">
+              <i class="fa-brands fa-github-square"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/devin-berkani-789556104/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/devinberkani">
+              <i class="fab fa-twitter-square"></i>
             </a>
           </li>
         </ul>
       </div>
     </nav>
-    <main>
+    <main id="home">
       <!-- about section -->
-      <div class="about">
+      <div id="about" class="about">
         <div class="about-img">
           <img class="img" src="./devin-berkani.png" alt="" />
         </div>
         <div>
         <p>
           <span class="tags">&lt;&gt;</span
-          ><span class="section-title">about me</span
+          ><span class="section-title">Hey, I'm Devin.</span
           ><span class="tags">&lt;/&gt;</span><br />
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque modi
-          temporibus asperiores dignissimos eligendi quam, rem voluptas
-          similique aperiam sint?
+          I'm a front end web developer from Northcentral Ohio. <br/><br/>My goal is to create beautiful, user friendly applications that save time, enhance productivity, and allow us to spend more time on the things that matter most.
           <p>Have a question or want to work together?</p>
-        <button class="btn">send me an email</button>
+        <a href="mailto:devinberkani@gmail.com"><button class="btn">send me an email</button></a>
         </p>
         </div>
       </div>
 
       <!-- projects -->
-      <div class="projects">
+      <div id="projects" class="projects">
         <p class="projects-title">
           <span class="tags">&lt;&gt;</span
           ><span class="section-title">projects</span
@@ -88,21 +109,21 @@
         <div class="project-cards">
           <div class="card">
             <img class="img" src="./computer.jpeg" alt="" />
-            <p>Project 1</p>
+            <p>Coming Soon</p>
           </div>
           <div class="card">
             <img class="img" src="./computer.jpeg" alt="" />
-            <p>Project 2</p>
+            <p>Coming Soon</p>
           </div>
           <div class="card">
             <img class="img" src="./computer.jpeg" alt="" />
-            <p>Project 3</p>
+            <p>Coming Soon</p>
           </div>
         </div>
       </div>
 
       <!-- skills -->
-      <div class="skills">
+      <div id="skills" class="skills">
         <p class="skills-title">
           <span class="tags">&lt;&gt;</span
           ><span class="section-title">skills</span
@@ -121,7 +142,7 @@
       </div>
 
       <!-- contact -->
-      <div class="contact">
+      <div id="contact" class="contact">
         <p class="contact-title">
           <span class="tags">&lt;&gt;</span
           ><span class="section-title">contact</span
@@ -129,7 +150,7 @@
         </p>
         <div class="contact-info">
         <p>Have a question or want to work together? Let's connect.</p>
-        <button class="btn">send me an email</button>
+        <a href="mailto:devinberkani@gmail.com"><button class="btn">send me an email</button></a>
         </div>
       </div>
 
@@ -137,6 +158,28 @@
             ><span class="section-title">about me</span
             ><span class="tags">&lt;/&gt;</span></div> -->
     </main>
+    <footer class="footer">
+      <div class="footer-center"><ul class="footer-social-icons">
+          <li>
+            <a href="https://github.com/devinberkani">
+              <i class="fa-brands fa-github-square"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/devin-berkani-789556104/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/devinberkani">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+        </ul>
+        © <script>document.write(new Date().getFullYear())</script> Devin Berkani. All rights reserved.</div>
+    </footer>
     <script src="./toggle.js"></script>
   </body>
 </html>
