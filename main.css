@@ -1,3 +1,7 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 /* 
 ===============
 Global Styles
@@ -11,8 +15,6 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
 
 html {
   font-size: 100%;
@@ -50,8 +52,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: 'Fira Code', monospace;
-  --bodyFont: 'Fira Code', monospace;
+  --headingFont: 'Source Code Pro', monospace;
+  --bodyFont: 'Source Code Pro', monospace;
   --small-text: 0.875rem;
   --extra-small-text: 0.7rem;
   /* rest of the vars */
@@ -439,8 +441,8 @@ Main Content
 
 main {
   display: grid;
-  gap: 3em;
-  padding: 3em;
+  gap: 2em;
+  padding: 2em 1em;
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -451,7 +453,7 @@ main {
 .skills,
 .contact {
   background: var(--white);
-  padding: 3em;
+  padding: 1.5em;
   box-shadow: var(--shadow-4);
   border-radius: var(--borderRadius);
 }
