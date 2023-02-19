@@ -1,6 +1,6 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* 
 ===============
@@ -52,8 +52,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: 'Source Code Pro', monospace;
-  --bodyFont: 'Source Code Pro', monospace;
+  --headingFont: 'Open Sans', sans-serif;
+  --bodyFont: 'Open Sans', sans-serif;
   --small-text: 0.875rem;
   --extra-small-text: 0.7rem;
   /* rest of the vars */
@@ -141,6 +141,7 @@ ul {
   width: 100%;
   display: block;
   object-fit: cover;
+  border: 1px solid #d3d3d3;
   border-radius: var(--borderRadius);
 }
 /* buttons */
